@@ -9,14 +9,49 @@
         <meta name="description" content="Strona o tematyce zwiazanej z DB" />
         <meta name="keywords" content="Draong Ball, DB, Songo" />
             <style type="text/css">
+                *
+                {
+                    padding: 0;
+                    margin: 0;
+                }
                 body
                 {
                     background-image: url('images/tlo.jpg');
                     background-attachment: fixed;
+                    background-repeat: repeat;
+                }
+                #kontener
+                {
+                    width: 1004px;
+                    margin: 0 auto;
+                }
+                /* Górna cześć kontenera */
+                #gorna_czesc_kontenera
+                {
+                    position: relative;
+                    width: 900px;
+                    height: 150px;
+                    background-image: url('images/gorna_czesc.jpg');
+                }
+                img.logo
+                {
+                    position: absolute;
+                    border: 0;
+                    left: 20px;
+                    top: 20px;
+
                 }
             </style>
     </head>
     <body>
-        To jest stronka
+        <div align="center">
+            <div id="kontener">
+                <div id="gorna_czesc_kontenera">
+                    <a href="http://video-kurswww.prv.pl/"><img class="logo" src="images/db_logo.png" alt="Logo DB" /></a>
+                </div>
+                <!-- koniec div gorna czesc kontenera -->
+            </div>
+            <!-- konice div kontener -->
+        </div>
     </body>
 </html>
