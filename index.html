@@ -46,7 +46,49 @@
                     position: absolute;
                     border: 0;
                     left: 20px;
-                    top: 20px;
+                    top: 10px;
+                }
+
+                /* Menu górne */
+                #menu_gorne
+                {
+                    position: absolute;
+                    left: 50px;
+                    bottom: -1px;               
+                }
+                #wlasciwe_gorne_menu li
+                {
+                    list-style-type: none;
+                    float: left;            
+                }
+                a
+                {
+                    color: teal;
+                    text-decoration: none;
+                }
+                #wlasciwe_gorne_menu li a
+                {
+                    background-image: url('images/gorne_menu_bottom.jpg');
+                    height: 36px;
+                    display: inline-block;
+                    border-bottom: none;
+                    padding: 0px 10px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-size: 10px;
+                    font-weight: bold;
+                    color: white;
+                    margin-top: 10px;
+                }
+                #wlasciwe_gorne_menu li a:hover
+                {
+                    background-image: url('images/gorne_menu_bottom_hover.jpg');
+                    color: lavender;
+
+                }
+                span.link 
+                {
+                    display:inline-block;
+                    margin-top: 10px;
 
                 }
             </style>
@@ -56,7 +98,14 @@
             <div id="kontener">
                 <div id="gorna_czesc_kontenera">
                     <a href="http://video-kurswww.prv.pl/"><img class="logo" src="images/db_logo.png" alt="Logo DB" /></a>
-
+                    <div id="menu_gorne">
+                        <ul id="wlasciwe_gorne_menu">
+                            <li><a href="#"><span class="link">Dragon Ball Anime </span></a></li>
+                            <li><a href="#"><span class="link">Dragon Ball Manga</span></a></li>
+                            <li><a href="#"><span class="link">Dragon Ball Movies</span></a></li>
+                            <li><a href="#"><span class="link">Postacie</span></a></li>
+                        </ul>
+                    </div>
                     <div id="kontakt_box">
                         <table>
                             <tr><th> Kontakt: </th></tr>
