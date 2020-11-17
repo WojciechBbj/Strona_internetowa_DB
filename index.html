@@ -38,7 +38,7 @@
                     position: absolute;
                     right: 20px;
                     top: 20px;
-                    color: white;
+                    color: #FFFFFF;
                     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 }
                 img.logo
@@ -76,20 +76,60 @@
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
                     font-size: 10px;
                     font-weight: bold;
-                    color: white;
+                    color: #FFFFFF;
                     margin-top: 10px;
                 }
                 #wlasciwe_gorne_menu li a:hover
                 {
                     background-image: url('images/gorne_menu_bottom_hover.jpg');
-                    color: lavender;
+                    color: #949497;
 
                 }
                 span.link 
                 {
-                    display:inline-block;
+                    display: inline-block;
                     margin-top: 10px;
 
+                }
+                /* Środkowe menu */
+                #srodkowe_menu
+                {
+                    background-image: url('images/gorne_menu.jpg');
+                    width: 900px;
+                    height: 36px;
+                }
+                #srodkowe_menu li
+                {
+                    list-style-type: none;
+                    float: left;
+                }
+                #srodkowe_menu li a
+                {
+                    border-bottom: none;
+                    color: #FFFFFF;
+                    font-size: 15px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-weight: bold;
+                    font-style: italic;
+                }
+                #srodkowe_menu li a:hover
+                {
+                    color: #b2b2b6;
+                }
+                #srodkowe_menu li span.odstep
+                {
+                    display: inline-block;
+                    margin: 5px 10px 0px 10px;
+                    color:#ffa500;
+                }
+                #srodkowe_menu li span.link2
+                {
+                    display: block;
+                    margin-top: 7px;
+                }
+                #pierwszy_poziom
+                {
+                    margin-left: 70px;
                 }
             </style>
     </head>
@@ -100,10 +140,10 @@
                     <a href="http://video-kurswww.prv.pl/"><img class="logo" src="images/db_logo.png" alt="Logo DB" /></a>
                     <div id="menu_gorne">
                         <ul id="wlasciwe_gorne_menu">
-                            <li><a href="#"><span class="link">Dragon Ball Anime </span></a></li>
-                            <li><a href="#"><span class="link">Dragon Ball Manga</span></a></li>
-                            <li><a href="#"><span class="link">Dragon Ball Movies</span></a></li>
-                            <li><a href="#"><span class="link">Postacie</span></a></li>
+                            <li><a href="#"><span class="link">Dragon Ball Histora</span></a></li>
+                            <li><a href="#"><span class="link">Dragon Ball News</span></a></li>
+                            <li><a href="#"><span class="link">Dragon Ball Walki</span></a></li>
+                            <li><a href="#"><span class="link">Ciekawostki</span></a></li>
                         </ul>
                     </div>
                     <div id="kontakt_box">
@@ -116,6 +156,18 @@
                     </div>
                 </div>
                 <!-- koniec div gorna czesc kontenera -->
+                <div id="srodkowe_menu">
+                    <ul id="pierwszy_poziom">
+                        <li><a href="#"><span class="link2">Dragon Ball Anime</span></a></li>
+                        <li><span class="odstep">---</span></li>
+                        <li><a href="#"><span class="link2">Dragon Ball Manga</span></a></li>
+                        <li><span class="odstep">---</span></li>
+                        <li><a href="#"><span class="link2">Dragon Ball Movies</span></a></li>
+                        <li><span class="odstep">---</span></li>
+                        <li><a href="#"><span class="link2">Postacie</span></a></li>
+                    </ul>
+                </div>
+                <!-- Koniec div srodkowe menu -->
             </div>
             <!-- konice div kontener -->
         </div>
